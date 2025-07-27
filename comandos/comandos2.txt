@@ -1,0 +1,70 @@
+Corrigir a prova teorica
+Trabalho parte 1
+ - Listar todas as funcionalidades do projeto
+ - Definir para cada funcionalidade o que está bom, o que precisa ser refatorado e o que precisa ser apagado e escrito novamente.
+ - Definir novas funcionalidades.
+
+ConfiguraÃ§Ãµes iniciais
+ - git config --global user.name "John Doe"
+ - git config --global user.email johndoe@example.com
+
+Criar um repositorio
+ - git init
+
+Verificar status do repositório
+ - git status
+ 
+Adicionar todos os arquivos para enviar para o repositório remoto
+ - git add *
+ 
+Depois de adicionar os arquivos  necessario fazer um commit
+ - git commit -m "Descrição do commit"
+ 
+Criar uma conta no git e um repositório
+ - git remote add origin https://github.com/andrejcamillo/aspnet.git
+ 
+Enviar os arquivos para o repositório
+ - git push -u origin master
+ 
+Clonar repositório remoto
+ - $ git clone https://github.com/dideconto/controlador.git
+ 
+Requisitar novas atualizações do projeto
+ - git pull
+ 
+Remover credenciais
+ - Gerenciador de credenciais na pesquisa do windows
+
+https://rogerdudler.github.io/git-guide/index.pt_BR.html
+https://www.youtube.com/watch?v=w3jLJU7DT5E
+
+
+
+git add .
+git commit -m "Descrição do commit"
+git push -u origin feature/gerenciamentodeeventos
+
+******************************************************************
+Cleverson 
+
+	Ir até o diretorio do workspace atraves do cmd;
+
+	? git clone + link do projeto
+
+	? git status
+		Checar os status do projeto
+	? git branch
+		Adicionar uma ramificação paralela para trabalhar sem afetar o projeto original
+	? git checkout -b feature/moduloQueEstaTrabalhando ? Ex feature/pedidos
+		
+
+
+*****************************************************************
+
+Voltar ao estado do ultimo commit.
+
+	git clean -df
+
+	git checkout -- .
+
+	git status

@@ -1,0 +1,99 @@
+Exibe se tem algo para adicionar para envio.
+	git status
+
+Adiciona para a area de stage as modificações para que possa ser commitado.
+	git add
+
+Detalhes do commit com hash de cada uma.
+	git log
+
+Tudo detalhado (Inclusive branchs, se houve merge).
+	git log --decorate
+
+Filtrar pelo Autor André.
+	git log --author="Andre"
+
+Mostra autores e cada commit de cada autor.
+	git shortlog
+
+Apenas autor e qnt de commit de cada um.
+	git shortlog -sn
+
+Mostra em forma grafica o que acontece nas branchs e versões.
+	git log --graph
+		
+Com a hash do commit e sem aspas exibe tudo que mudou neste commit, quantas mudanças foram, quem mudou, etc.
+	git show "hash do commit"
+
+Exibe as modificações antes do git add.
+	git diff
+
+Ver apenas o nome do(s) Arquivo(s) modificados.
+	git diff --name-only
+
+Comitando direto se o arquivo já existiu pode usar o -am 
+	git commit -am "Editei o arquivo"
+
+========================/========================
+
+Voltar arquivo para antes da edição.
+	git checkout "Nome do arquivo"
+
+Voltar o arquivo do Stage
+	git reset HEAD "Nome do arquivo"
+
+
+3 tipos de reset 
+
+Precisa selecionar o hash do commit antes do que deseja deletar no git log
+
+	git reset --soft --mixed --hard
+
+Pega as modificações e voltar o commit, mas o arquivo fica no stage aguardando o commit denovo.
+	git reset --soft hash
+
+Mata o commit também, mas volta os arquivos para antes do stage, retorna para modified.
+	git reset --mixed hash
+
+Ignora a existencia do commit e tudo que foi feito nele e depois dele (Bruto Cuidado!)
+	git reset --hard hash
+
+
+=============================/================================
+
+Criando uma chave SSH : https://docs.github.com/pt/authentication/connecting-to-github-with-ssh
+
+Abri o terminal dentro da pasta do projeto.
+
+cd ~/.ssh/
+
+ls
+
+cat id_rsa.pub
+
+Copiar chave, E ir dentro do github em Settings > SSH and GPG Keys.
+
+New SSH key Inserir a key e o nome no titulo tipo Home ou Work para diferenciar PC trabalho e pc casa.
+
+
+============================/=================================
+
+Clonar um projeto do diretorio remoto para o local
+	git clone 
+
+Adicionar para o stage as alterações
+	git add .
+
+Commitar as alterações
+	git commit -m "blablabla"
+
+Enviar atualizações do diretorio local para o remoto
+	git push
+
+===========================/==================================
+
+Log completo
+	git log
+
+Log resumido
+	git log --oneline
