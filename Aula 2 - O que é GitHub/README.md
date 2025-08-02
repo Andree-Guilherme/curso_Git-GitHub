@@ -1,4 +1,4 @@
-# Aula 1 | O que é GitHub? Pra que ele serve?
+# Aula 2 | O que é GitHub? Pra que ele serve?
 
 ### **O que é?**
 
