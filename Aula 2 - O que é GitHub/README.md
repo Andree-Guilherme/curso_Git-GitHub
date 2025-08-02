@@ -1,7 +1,5 @@
 # Aula 1 | O que é GitHub? Pra que ele serve?
 
-# GitHub
-
 ### **O que é?**
 
 Os desenvolvedores criaram uma plataforma social voltada para programadores, onde é possível não apenas enviar (ou “subir”) o seu próprio código, mas também colaborar com os códigos de outras pessoas
