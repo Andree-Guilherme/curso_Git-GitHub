@@ -16,9 +16,9 @@
     *   **Create repository** — Criar o repositório
     *   **Cancel** — Cancelar a criação
 
-1.  A tela inicial será aberta novamente
-2.  Para publicarmos no servidor (GitHub), devemos clicar no botão Publish repository
-3.  Ao clicar nesse botão será abeto uma tela com os seguintes campos
+3.  A tela inicial será aberta novamente
+4.  Para publicarmos no servidor (GitHub), devemos clicar no botão Publish repository
+5.  Ao clicar nesse botão será abeto uma tela com os seguintes campos
 
 *   **Campos**
     *   **Name:** Nome do repositório que será publicado no GitHub
@@ -29,7 +29,7 @@
     *   **Publish repository:** Botão para iniciar a publicação do repositório no GitHub
     *   **Cancel:** Cancela a operação e fecha a janela
 
-1.  Posteriormente, ao acessarmos a página do GitHub, o repositório **irá aparecer lá**
+6.  Posteriormente, ao acessarmos a página do GitHub, o repositório **irá aparecer lá**
 
 Este processo criará uma pasta no caminho indicado, que servirá de repositório local, e ao clicar em "Publish", esse repositório local será enviado para o repositório remoto — GitHub.
 
