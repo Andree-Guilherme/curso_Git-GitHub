@@ -6,7 +6,7 @@ Os desenvolvedores criaram uma plataforma social voltada para programadores, ond
 
 Nesse ambiente, os usuários podem testar projetos de outros desenvolvedores, dar sugestões de melhorias e registrar problemas encontrados por meio das chamadas _issues_
 
-**Onde ele se encontra?**
+### **Onde ele se encontra?**
 
 > **1 - Criação do projeto:** A pessoa cria uma pasta no computador para organizar os arquivos do projeto
 
