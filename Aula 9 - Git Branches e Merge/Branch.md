@@ -9,9 +9,11 @@
 No Git, a estrutura funciona como uma árvore. Temos o __tronco principal__, que chamamos de __branch master__ (ou main, dependendo da configuração). Essa branch representa o __ramo de produção__, ou seja, o __produto final__ ou a __versão estável__ do software
 
 >Exemplo 1
+
 > Se temos um software na versão 4.0 (estável), mas há pessoas trabalhando em melhorias ou novas funcionalidades para a versão 4.5 ou 5.0, essas alterações devem ser feitas em branches separadas. Depois de testadas e aprovadas, essas branches podem ser unidas à principal por meio de um merge
 
 >Exemplo 2
+
 >Se alguém encontra um erro ou abre uma Issue relatando um problema, podemos criar uma branch específica para corrigir esse defeito. Após corrigido, fazemos o commit e um merge dessa branch de correção para a branch principal (master), garantindo que o produto final seja atualizado com a solução
 
 ---
@@ -26,12 +28,14 @@ Quando usamos o comando git push, __estamos enviando (ou "empurrando") uma cópi
 Tecnicamente falando, isso é chamado de:
 > __"fazer um push para a origin"__
 
-> * A origin é o repositório remoto, geralmente no GitHub
-> * É como se fosse um backup do seu projeto hospedado na nuvem
-> * Já o repositório local é o que está na sua máquina
+* A origin é o repositório remoto, geralmente no GitHub
+* É como se fosse um backup do seu projeto hospedado na nuvem
+* Já o repositório local é o que está na sua máquina
 
 Resumindo:
+
     • Cada __novo commit__ gera uma nova versão
+    
     • No final do dia (ou quando decidirmos), usamos o comando __push para enviar todos os commits para a origin__, garantindo que o projeto remoto esteja atualizado
 
 ---

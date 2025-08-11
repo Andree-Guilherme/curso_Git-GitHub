@@ -1,12 +1,5 @@
 # Merge
 
-### Conflitos de merge no Git
-Quando, por exemplo, o responsável pelo __conteúdo__ altera uma linha e, ao mesmo tempo, o responsável pelo __design__ também faz uma alteração __na mesma linha__, ocorre o que chamamos de um __conflito__ na hora de fazer o merge das branches
-
-O Git não consegue decidir sozinho qual das versões manter, então será necessário __resolver o conflito manualmente__, escolhendo qual alteração deve prevalecer (ou combinando as duas)
-
----
-
 ### Como fazer um merge no GitHub Desktop
 1. Selecione a branch principal, ou seja, a branch onde as outras serão integradas (geralmente __master__ ou __main__)
 2. Vá até o menu __Branch__ no GitHub Desktop
@@ -16,6 +9,13 @@ O Git não consegue decidir sozinho qual das versões manter, então será neces
 6. Selecione a branch desejada para iniciar o merge
 7. Se não houver conflitos, o merge será realizado automaticamente
 8. Clique na confirmação para concluir o processo de merge
+
+---
+
+### Conflitos de merge no Git
+Quando, por exemplo, o responsável pelo __conteúdo__ altera uma linha e, ao mesmo tempo, o responsável pelo __design__ também faz uma alteração __na mesma linha__, ocorre o que chamamos de um __conflito__ na hora de fazer o merge das branches
+
+O Git não consegue decidir sozinho qual das versões manter, então será necessário __resolver o conflito manualmente__, escolhendo qual alteração deve prevalecer (ou combinando as duas)
 
 ---
 
@@ -32,10 +32,10 @@ O Git não consegue decidir sozinho qual das versões manter, então será neces
 * __Accept Incoming Change__ – Aceita a alteração da outra branch
 * __Accept Both Changes__ – Mantém as duas versões, combinando o conteúdo
 * Compare Changes – Permite visualizar e comparar as diferenças entre as versões
-7. Clique na opção desejada para aplicar a resolução do conflito
-8. Após resolver todos os conflitos, salve os arquivos modificados no VS Code
-9. Volte ao GitHub Desktop, onde aparecerá a opção __Mark as resolved__ (Marcar como resolvido). Clique nela
-10. Por fim, clique em Commit merge para concluir o processo de merge com sucesso
+6. Clique na opção desejada para aplicar a resolução do conflito
+7. Após resolver todos os conflitos, salve os arquivos modificados no VS Code
+8. Volte ao GitHub Desktop, onde aparecerá a opção __Mark as resolved__ (Marcar como resolvido). Clique nela
+9. Por fim, clique em Commit merge para concluir o processo de merge com sucesso
 
 ---
 
