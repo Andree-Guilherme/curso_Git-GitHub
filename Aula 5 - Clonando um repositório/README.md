@@ -2,7 +2,9 @@
 
 ### O que seria clonar um repositório?
 Baixar um repositório público para a máquina local e colocá-lo sob controle de versão no Git localmente
+
 ---
+
 ### Clonando um repositório
 1. Abrir um repositório no GutHub
 2. Clique no botão __Code__
@@ -13,10 +15,13 @@ Baixar um repositório público para a máquina local e colocá-lo sob controle 
    2. Em Local path, escolha a pasta onde o repositório será salvo localmente
 6. Clique em __Clone__ para iniciar a cópia para sua máquina
 7. Espere terminar o carregamento e o repositório estara clonado
+
 ---
+
 ### Verificar repositórios existentes
 Ao clicar em __Current repository__, será exibida uma lista com todos os repositórios disponíveis, incluindo os seus e aqueles de outras pessoas que você já acessou ou clonou
 Por fim, dentro da pasta que definimos, o projeto aparecerá no __Explorador de Arquivos do Windows__, junto com as demais pastas e arquivos já existentes
+
 ---
 ### Deletando um repositório
 1. Abra o __GitHub Desktop__ e clique em __Current repository__ (menu de repositórios)
@@ -32,6 +37,7 @@ Por fim, dentro da pasta que definimos, o projeto aparecerá no __Explorador de 
 _Observação: esse procedimento remove o repositório local (ou a entrada no GitHub Desktop). Para excluir um repositório remoto no __github.com__ é necessário entrar nas __Settings__ do repositório no site e usar a opção __Delete this repository__ na seção __Danger Zone__ (o GitHub pede confirmação digitando o nome do repositório)_
 
 ---
+
 ### Verificando se uma pasta está versionada pelo Git
 1. Abra o Explorador de Arquivos no Windows
 2. Acesse a pasta que deseja verificar
