@@ -25,7 +25,7 @@ No Git, a estrutura funciona como uma árvore. Temos o __tronco principal__, que
 A qualquer momento, podemos __enviar esse conteúdo da branch master para a origin__
 Quando usamos o comando git push, __estamos enviando (ou "empurrando") uma cópia do repositório local para o repositório remoto__
 
-Tecnicamente falando, isso é chamado de:
+__Tecnicamente falando, isso é chamado de:__
 > __"fazer um push para a origin"__
 
 * A origin é o repositório remoto, geralmente no GitHub
@@ -34,9 +34,9 @@ Tecnicamente falando, isso é chamado de:
 
 Resumindo:
 
-    • Cada __novo commit__ gera uma nova versão
-    
-    • No final do dia (ou quando decidirmos), usamos o comando __push para enviar todos os commits para a origin__, garantindo que o projeto remoto esteja atualizado
+• Cada __novo commit__ gera uma nova versão
+
+• No final do dia (ou quando decidirmos), usamos o comando __push para enviar todos os commits para a origin__, garantindo que o projeto remoto esteja atualizado
 
 ---
 
